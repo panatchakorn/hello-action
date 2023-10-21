@@ -16,6 +16,7 @@ The time we greeted you.
 
 ## Example usage
 
-uses: actions/hello-action@v1
-with:
-  who-to-greet: 'Mona the Octocat'
+- name: Hello action demo
+  uses: panatchakorn/hello-action@v1
+  with:
+    who-to-greet: 'Mona the Octocat'
